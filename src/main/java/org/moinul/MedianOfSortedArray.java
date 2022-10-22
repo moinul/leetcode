@@ -15,10 +15,10 @@ public class MedianOfSortedArray implements MyRunner {
         for (int i = 0; i < nums12.length; i++) {
             if (nums1[j] < nums2[k]) {
                 nums12[i] = nums1[j];
-                j += 1;
+                j += nums1.length > j + 1 ? 1 : 0;
             } else {
                 nums12[i] = nums2[k];
-                k += 1;
+                k += nums2.length > k + 1 ? 1 : 0;
             }
         }
         int l = nums12.length / 2;
