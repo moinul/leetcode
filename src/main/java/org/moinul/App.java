@@ -19,8 +19,17 @@ public class App {
         //generate parenthesis
         //runner = new GenerateParenthesis();
         //find median
-        runner = new MedianOfSortedArray();
-
+        //runner = new MedianOfSortedArray();
+        //Reshape The Matrix
+        //runner = new ReshapeTheMatrix();
+        //Pascal Triangle
+        //runner = new PascalTriangle();
+        //First Unique Character In a String
+        //runner= new FirstUniqueCharacterInString();
+        //RansomNote
+        //runner = new RansomNote();
+        //Valid Anagram
+        runner = new ValidAnagram();
 
         runner.run();
 
