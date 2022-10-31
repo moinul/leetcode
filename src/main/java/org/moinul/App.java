@@ -29,7 +29,9 @@ public class App {
         //RansomNote
         //runner = new RansomNote();
         //Valid Anagram
-        runner = new ValidAnagram();
+        //runner = new ValidAnagram();
+        // Remove duplicate
+        runner = new RemoveDuplicatesFromSortedList();
 
         runner.run();
 

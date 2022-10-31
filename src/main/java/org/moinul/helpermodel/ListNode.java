@@ -1,10 +1,19 @@
 package org.moinul.helpermodel;
 
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
-    ListNode(int x) {
+    public ListNode() {
+
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
+    public ListNode(int x) {
         val = x;
         next = null;
     }
