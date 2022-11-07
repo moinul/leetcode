@@ -31,7 +31,12 @@ public class App {
         //Valid Anagram
         //runner = new ValidAnagram();
         // Remove duplicate
-        runner = new RemoveDuplicatesFromSortedList();
+        //runner = new RemoveDuplicatesFromSortedList();
+        //runner = new SearchInBinarySearchTree();
+        //runner= new InsertIntoABinarySearchTree();
+        //runner = new ValidateBinarySearchTree();
+        //runner = new TwoSumIVBST();
+        runner = new LowestCommonAncestorOfBinarySearchTree();
 
         runner.run();
 
